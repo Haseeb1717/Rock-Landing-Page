@@ -1,0 +1,317 @@
+  :root {
+  --c-dark:#324B29;
+  --c-brand: #4DB96B;
+  --c-brand-light: #fff;
+  --c-brand-rgb: 78, 87, 212;
+  --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
+  --transition: all 0.5s ease;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--c-brand);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--c-brand-light);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+body{
+  overflow-x: hidden;
+}
+.section, .padding {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.theme-shadow{
+  box-shadow: var(--box-shadow);
+}
+#header{
+   background-image:url('grassbackground.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.logo{
+  max-width: 300px;
+  height: 80px;
+  margin: 0 auto;
+}
+.first-title{
+ font-family: "Poppins", sans-serif;
+
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #00000080;
+ max-width:374px;
+  height: 54px;
+border-radius: 59px;
+ display: flex; /* Add flex display */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+margin: 0 auto; 
+}
+
+#main-title{
+   font-family: "Poppins", sans-serif;
+
+  font-weight: 900;
+  font-size: 110px;
+
+}
+@media only screen and (max-width: 767px) {
+#main-title{
+  font-weight: 900;
+  font-size: 50px;
+
+ }
+   }
+
+#help-btn{
+ font-family: "Poppins", sans-serif;
+  width: 180px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #FFFFFF;
+color: black;  
+text-align: center; /* Center-align the text */
+  line-height: 50px; /* Ensure vertical centering */
+
+}
+#help{
+font-family: "Poppins", sans-serif;
+  width: 180px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #FFFFFF;
+color: green;  
+text-align: center; /* Center-align the text */
+  line-height: 50px; /* Ensure vertical centering */
+margin: 0 auto;  
+
+}
+#sec-name{
+  font-size: 64px;
+  font-weight: 800;
+  color: #828282;
+}
+.card{
+  border-radius: 30px;
+  max-width: 385px;
+height: auto;
+width: 100%
+}
+    @media (max-width: 768px) {
+.card{
+margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%; /* Ensure cards take full width */
+    margin-bottom: 20px; /* Add some spacing between cards */
+  }
+}
+  .card-img-top {
+    height: 200px; /* Set a fixed height for image aspect ratio */
+    object-fit: cover; /* Ensure images cover the entire space */
+    border-radius: 30px 30px 0 0; /* Round the top corners */
+  }
+.card-title{
+color: #0D4D14;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+
+}
+.card-text{
+  font-weight: 400;
+  line-height: 20px;
+  color: #0D4D14;
+
+}
+@media only screen and (min-width: 667px) and (max-width: 812px) and (orientation: landscape) {
+}
+.background{
+  background-image: url('grassbackground.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 20px;
+  height: 732px; /* Added padding */
+}
+
+@media screen and (min-width: 160px) and (max-width: 991px) {
+  .background{
+    height: auto;
+  }
+}
+
+
+
+#abt-paragraph{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+@media only screen and (max-width: 767px) {
+#abt-paragraph{
+
+padding-left: 16px;
+padding-right: 16px;
+ }
+   }
+#testimonial {
+      padding: 50px 0;
+ 
+    }
+ 
+    .testimonial-item {
+      padding: 20px;
+    border: 1px solid #6CB981;
+      border-radius: 40px;
+    
+    }
+    .testimonial-item .info {
+      display: flex;
+      align-items: center;
+    }
+    .testimonial-item img {
+      max-width: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      vertical-align: middle;
+    }
+    .testimonial-item .name {
+      text-transform: capitalize;
+      line-height:22px;
+      color: #6CB981;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .testimonial-item p {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+line-height: 22px;
+    }
+    .testimonial-item .rating {
+ color: #6CB981;
+     
+    }
+       .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .form-container {
+      flex: 0 0 45%; /* Adjust as needed */
+    }
+    .text-container {
+      flex: 0 0 45%; /* Adjust as needed */
+    }
+    @media (max-width: 768px) {
+      .form-container, .text-container {
+        flex: 0 0 100%; /* Stack on top of each other on smaller screens */
+        margin-bottom: 20px; /* Add some space between stacked items */
+      }
+    }  
+    .form-control {
+      background: #9FDEA9;
+      max-width: 374px;
+      height: 56px;
+      border-radius: 266px;
+    } 
+
+    .icon-text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; /* Adjust the space between icon and text */
+    }
+
+    .icon-text i {
+      margin-right: 20px; /* Adjust the space between icon and text */
+    color: #4DB96B;
+width: 20px;
+height: 20px;
+font-size: 22px;
+margin-top: -15px;
+    }
+
+.footersection{
+  width: 100%;
+  height: auto;
+  padding: 70px 0 20px 0;
+  background:#324B29;
+  position: relative;
+  color: #fff;
+}
+
+.footersection li a{
+  font-size: 1.2rem; /* Increased font size */
+  line-height: 1.6;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none; /* Removed text decoration */
+}
+
+.footersection h3{
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 1.6rem!important; /* Increased font size */
+  font-weight: 600;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.footer-div p{
+  color: #fff;
+}
+
+.footer-div.text-left h3,
+.footer-div.text-right h3 {
+  text-align: center;
+}
+
+.footer-div.text-left p {
+  text-align: justify;
+}
+
+.footer-div.text-right ul {
+  text-align: right;
+  margin-top: 10px; /* Added margin for vertical gap */
+}
+
+.footer-div.text-right ul li {
+  text-align: right;
+}
+
+.footer-div.text-right ul li a {
+  text-align: right;
+}
+
+.footer-div.text-right ul {
+  padding-inline-start: 0;
+}
+
+.footer-div.text-right h3 {
+  text-align: right; /* Aligning headings to the right */
+}
+hr{
+  border-top: 8px solid white;
+}
+.text{
+display: inline;
+}
