@@ -1,4 +1,4 @@
-![Alt Text](file:///C:/Users/Host/Desktop/rock1.png)
+(![demo](https://example.com/path/to/rock1.png))
 
 # Rock-Landing-Page
 This is a landing page of round rock yard maintenance
